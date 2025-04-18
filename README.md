@@ -1,29 +1,27 @@
-# Lab Exercise: Deciphering SHA256 Hash of a 3-Digit Number
+# Lab Exercise: How to Create a JWT with Expiry 🕒
 
 ## 🎯 Objectives
 
-- Grasp the concept of SHA256 cryptographic hashing.
-- Enhance analytical skills in decoding hash values.
+- Learn to generate a JWT (JSON Web Token) with an expiration time to enhance the security of your full-stack applications.
 
-## 🔍 Prerequisites
+- Understand the importance of expiry in JWTs for session management and user authentication.
 
-- Basic understanding of hashes and number systems.
+## 📚 Prerequisites
 
-## 🚀 Steps
+- Basic knowledge of Node.js and Express framework.
 
-1. **Learn About SHA256**: Familiarize yourself with the SHA256 hashing algorithm and its use cases.
+## 🛠️ Steps
 
-2. **Access the Interface**: Navigate to the provided browser for hash cracking.
+1. **Setup Your Project**: Install the `jsonwebtoken` package.
 
-3. **Analyze the Given SHA256 Hash**: A unique SHA256 hash value of a 3-digit number will be displayed on your screen.
+2. **Create a JWT**: Use the `jsonwebtoken` package to create a JWT, incorporating a payload and an expiry time.
 
-4. **Deductive Thinking**: Use your knowledge and logical reasoning to guess the original 3-digit number.
+3. **Set the Expiry**: Define the `expiresIn` option to specify the token's lifespan.
 
-5. **Input Your Guess**: Enter your 3-digit number guess in the provided input field.
+4. **Handle Token Expiry**: Implement logic to handle expired tokens.
 
-6. **Check Your Answer**: Click the 'Check' button to see if your guess decrypts the hash correctly.
+5. **Testing**: Test your implementation by generating a token.
 
-7. **Iterate and Learn**: If unsuccessful, analyze your approach, learn from it, and try again!
+## 🎉 Outcome
 
-## 🏁 Outcome
-- Mastery in interpreting SHA256 hashes through critical thinking and analysis.
+- You'll be able to create secure JWTs with expiry, enhancing the security and user experience of your full-stack applications.
